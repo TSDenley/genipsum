@@ -1,6 +1,6 @@
 # Genipsum
 
-TODO: Write a gem description
+A simple gem to generate place holder text
 
 ## Installation
 

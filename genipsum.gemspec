@@ -4,8 +4,8 @@ require File.expand_path('../lib/genipsum/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["TSDenley"]
   gem.email         = ["tsdenley@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Random sentences from Bram Stoker's Dracula}
+  gem.summary       = %q{Generate one or more dummy sentences taken from Bram Stoker's Dracula}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.name          = "genipsum"
   gem.require_paths = ["lib"]
   gem.version       = Genipsum::VERSION
+  gem.add_development_dependency 'rake'
 end
