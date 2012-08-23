@@ -1,6 +1,6 @@
 # Genipsum
 
-A simple gem to generate place holder text form Bram Stoker's *Dracula*.
+**Gen**erate**ipsum** A simple gem to generate place holder text form Bram Stoker's *Dracula*.
 
 ## Installation
 
@@ -18,4 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To use, call 
+
+	Genipsum::Sentence.sentence
+
+This will generate 5 sentences, or
+
+	Genipsum::Sentence.sentences(x)
+
+call as above, where 'x' is the number of required sentences, to generate a different amount.
