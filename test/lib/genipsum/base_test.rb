@@ -12,7 +12,7 @@ describe Genipsum::Base do
 		it "must have the dracula file as source" do
 			subject.source.must_be_instance_of(String)
 		end
-
+		
 	end
 
 	describe "splitting into lines" do
