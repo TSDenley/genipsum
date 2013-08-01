@@ -1,6 +1,6 @@
 # Genipsum
 
-**Gen**erate**ipsum** A simple gem to generate place holder text form Bram Stoker's *Dracula*.
+**Gen**erate*ipsum* A simple gem to generate place holder text form Bram Stoker's *Dracula*.
 
 ## Installation
 
